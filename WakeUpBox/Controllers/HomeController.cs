@@ -23,7 +23,7 @@ namespace WakeUpBox.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            string a = "R";
             return View();
         }
     }
